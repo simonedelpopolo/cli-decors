@@ -1,0 +1,43 @@
+{
+  "name": "cli-decors",
+  "version": "1.0.1",
+  "description": "Extends JavaScript String prototype with foreground colors, background colors, underline and strong for the text rendered to stdout. ESModule.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "npx eslint . --ext .js",
+    "eslint-fix": "npx eslint --fix . --ext .js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-plugin-jsdoc": "^38.1.4"
+  },
+  "homepage": "https://github.com/simonedelpopolo/cli-decors#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonedelpopolo/cli-decors.git"
+  },
+  "bugs": {
+    "email": "simonedelpopolo@outlook.com",
+    "url": "https://github.com/simonedelpopolo/cli-decors/issues"
+  },
+  "keywords": [
+    "colors",
+    "stdout",
+    "esmodule",
+    "cli",
+    "terminal",
+    "shell",
+    "text-decorators",
+    "background-colors"
+  ],
+  "author": {
+    "name": "Simone Del Popolo",
+    "email": "simonedelpopolo@outlook.com",
+    "url": "https://github.com/simonedelpopolo"
+  },
+  "license": "Apache-2.0"
+}
